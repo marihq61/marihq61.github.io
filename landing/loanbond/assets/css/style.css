@@ -1,0 +1,46 @@
+:root{
+    --primary:#2d3867;
+    --purple-background: #F0F0F5;
+}
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.overlay-sm{
+    position: absolute; 
+    bottom: 0; 
+    width: 100%;
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+    text-align: center;
+}
+.btn-blue{
+    color: white;
+    font-size:35px; 
+    background-color:var(--primary)!important; 
+    border-color:var(--primary)!important;
+}
+.btn-blue-sm{
+    color: white;
+    background-color:var(--primary)!important; 
+    border-color:var(--primary)!important;
+}
+span{
+    color:rgb(52, 58, 64)
+}
+footer{
+    background-color: var(--purple-background);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 0.875rem;
+}
+.img-membership{
+    width: 400px;
+    display:block;
+    margin:auto;
+}
